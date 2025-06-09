@@ -1,0 +1,702 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>BMI Online</title>
+	<!-- Required css -->
+
+	<link rel="stylesheet" type="text/css" href="./css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="./css/owl.carousel.min.css">
+	<link rel="stylesheet" type="text/css" href="./css/owl.theme.min.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+		integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+		crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+	<!-- custom css  -->
+	<link rel="stylesheet" type="text/css" href="./css/style.css">
+</head>
+
+<body>
+	<header class="bmi-header">
+		<!-- NAV_BAR_SECTION START -->
+		<nav>
+			<input type="checkbox" id="nav-toggle">
+
+			<label for="nav-toggle" class="icon-burger">
+				<div class="line"></div>
+				<div class="line"></div>
+				<div class="line"></div>
+			</label>
+			<div class="logo">
+				<a href="/">
+					<img src="./image/site-Logo.png" alt="Reymart-Logo" title="Reymart-Logo">
+				</a>
+			</div>
+			<div class="links">
+				<div class="main-links">
+                    <p><a href="/">Home</a></p>
+                    <p><a href="/about.html">About</a></p>
+                    <div class="dropdown-parent">
+                        <a href="#about"><span>Catalogues</span></a>
+                        <ul class="dropdown">
+                            <li><a href="#service1">Service 1</a></li>
+                            <li><a href="#service2">Service 2</a></li>
+                            <li><a href="#service3">Service 3</a></li>
+                        </ul>
+                    </div>
+                    <p><a href="/blog-listing.html">Blog</a></p>
+                    <p><a href="/contact.html">Contact</a></p>
+                </div>
+				<div class="main-usersec">
+					<div class="search_head">
+						<form action="">
+							<input type="text" class="searchTerm" placeholder="What are you looking for?">
+							<button type="submit" class="searchButton">
+								<i class="fa-solid fa-magnifying-glass"></i>
+							</button>
+						</form>
+					</div>
+					<p class="d-lg-block d-none"><a href="#work"><i class="fa-solid fa-cart-shopping"></i></a></p>
+					<p class="d-lg-block d-none"><a href="#work"><i class="fa-regular fa-heart"></i></a></p>
+					<p class="login-link"><a href="#work">Login</a></p>
+					<p><a href="#work">Sign Up</a></p>
+				</div>
+			</div>
+			<div class="mobile_carts">
+				<p><a href="#work"><i class="fa-solid fa-magnifying-glass"></i></a></p>
+				<p><a href="#work"><i class="fa-solid fa-cart-shopping"></i></a></p>
+			</div>
+		</nav>
+		<!-- NAV_BAR_SECTION END -->
+	</header>
+	<!-- Main Section start -->
+	<section class="banner-section pb-0">
+		<div class="banner-main">
+			<img class="desktop d-md-block d-none" src="./image/banner.png" alt="">
+			<img class="mobile d-md-none" src="./image/home_mobile.png" alt="">
+			<div class="banner_content">
+				<h4><span>Decorative interiors</span></h4>
+				<h1>Global sourcing partner for custom homeware solutions</h1>
+				<p>BMI is a global sourcing partner that discovers, designs, and manufactures homeware in
+					collaboration
+					with exclusive factory partners.</p>
+				<p class="common-btn"><a href="">Explore More</a></p>
+			</div>
+		</div>
+	</section>
+	<!-- Latest categories -->
+	<section class="section_bg categories_sec">
+		<div class="container">
+			<div class="main_subtitle">
+				<h2 class="subheading">Latest Catalogues</h2>
+				<p class="subtext">We are manufacturers and exporters of premium home decor products, including
+					planters, lanterns,
+					pots, platters, candle stands, bowls, tableware, and more.</p>
+			</div>
+			<div class="category_main row mt-5">
+				<div class="col-lg-6 category_innr1">
+					<img src="./image/catealog-1.png" alt="">
+					<div class="category_manifact">
+						<h3>Planters</h3>
+						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. </p>
+						<a href="">Book a Meeting</a>
+					</div>
+				</div>
+				<div class="col-lg-6 category_innr2">
+					<img src="./image/catealog-2.png" alt="">
+					<div class="category_manifact">
+						<h3>Bowls</h3>
+						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. </p>
+						<a href="">Explore</a>
+					</div>
+				</div>
+				<div class="col-lg-12 category_innr3">
+					<img src="./image/catealog-3.png" alt="">
+					<div class="category_manifact">
+						<h3>Candle Stands</h3>
+						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed scelerisque ligula at lectus
+							egestas, vitae rhoncus enim vehicula. Vestibulum ac ex eros. Aenean eros tellus, lacinia
+							vitae sem semper, placerat elementum massa. </p>
+						<a href="">Explore</a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<!-- Categories -->
+
+	<section class="main_categori">
+		<div class="container">
+			<div class="main_subtitle">
+				<h2 class="subheading">Categories</h2>
+				<p class="subtext">We are manufacturers and exporters of premium home decor products, including
+					planters, lanterns,
+					pots, platters, candle stands, bowls, tableware, and more.</p>
+			</div>
+			<div class="catergory_row">
+				<!--  -->
+				<div class="collect_items">
+					<a href="">
+						<div class="cateot_img">
+							<img src="./image/categories-1.png" alt="">
+						</div>
+					</a>
+					<p>Planters</p>
+				</div>
+				<!--  -->
+				<div class="collect_items">
+					<a href="">
+						<div class="cateot_img">
+							<img src="./image/categories-2.png" alt="">
+						</div>
+					</a>
+					<p>Bowls</p>
+				</div>
+				<!--  -->
+				<div class="collect_items">
+					<a href="">
+						<div class="cateot_img">
+							<img src="./image/categories-3.png" alt="">
+						</div>
+					</a>
+					<p>Lanterns </p>
+				</div>
+				<!--  -->
+				<div class="collect_items">
+					<a href="">
+						<div class="cateot_img">
+							<img src="./image/categories-4.png" alt="">
+						</div>
+					</a>
+					<p>Platters</p>
+				</div>
+				<!--  -->
+				<div class="collect_items">
+					<a href="">
+						<div class="cateot_img">
+							<img src="./image/categories-5.png" alt="">
+						</div>
+					</a>
+					<p>Jars</p>
+				</div>
+				<!--  -->
+				<div class="collect_items">
+					<a href="">
+						<div class="cateot_img">
+							<img src="./image/categories-6.png" alt="">
+						</div>
+					</a>
+					<p>Candle Stands</p>
+				</div>
+				<!--  -->
+			</div>
+		</div>
+	</section>
+
+	<!-- Latest Arrival -->
+	<section class="section_bg  latest_sec">
+		<div class="container">
+			<div class="main_subtitle">
+				<h2 class="subheading">Our latest arrivals</h2>
+				<p class="subtext">As trusted manufacturers and exporters, we deliver premium home decor collections
+					worldwide.</p>
+			</div>
+
+			<div class="latest_main">
+				<!--  -->
+				<div class="latest_item">
+					<a href="">
+						<div class="latest-arrvimg">
+							<img src="./image/arrival-1.png" alt="">
+							<p>New Arrivals</p>
+							<i class="fa-solid fa-angle-right"></i>
+						</div>
+					</a>
+				</div>
+				<!--  -->
+				<div class="latest_item">
+					<a href="">
+						<div class="latest-arrvimg">
+							<img src="./image/arrival-2.png" alt="">
+							<p>New Arrivals</p>
+							<i class="fa-solid fa-angle-right"></i>
+						</div>
+					</a>
+					<a href="">
+						<div class="latest-arrvimg">
+							<img src="./image/arrival-3.png" alt="">
+							<p>New Arrivals</p>
+							<i class="fa-solid fa-angle-right"></i>
+						</div>
+					</a>
+				</div>
+				<!--  -->
+				<div class="latest_item">
+					<a href="">
+						<div class="latest-arrvimg">
+							<img src="./image/arrival-4.png" alt="">
+							<p>New Arrivals</p>
+							<i class="fa-solid fa-angle-right"></i>
+						</div>
+					</a>
+				</div>
+				<!--  -->
+
+			</div>
+			<div class="explore_btn">
+				<a href="#" class="btn btn-1">
+					<svg>
+						<rect x="0" y="0" fill="none" width="100%" height="100%" />
+					</svg>
+					Explore More</a>
+			</div>
+		</div>
+	</section>
+	<!-- Best Seller -->
+	<section class="best_sellersec">
+		<div class="container">
+			<div class="main_subtitle mb-5">
+				<h2 class="subheading">Bestsellers</h2>
+				<p class="subtext">As trusted manufacturers and exporters, we deliver premium home decor collections
+					worldwide.</p>
+			</div>
+			<div class="bestseller_main owl-carousel owl-theme">
+				<!--  -->
+				<div class="item">
+					<a href="">
+						<div class="inner_seller">
+							<img src="./image/bestseller-1.png" alt="">
+							<p>FL-57 Set Ebony Grace Jar Set</p>
+						</div>
+					</a>
+				</div>
+				<!--  -->
+				<div class="item">
+					<a href="">
+						<div class="inner_seller">
+							<img src="./image/bestseller-2.png" alt="">
+							<p>FL-58 Timber-Edged</p>
+						</div>
+					</a>
+				</div>
+				<!--  -->
+				<div class="item">
+					<a href="">
+						<div class="inner_seller">
+							<img src="./image/bestseller-3.png" alt="">
+							<p>FL-55 Set Frosty Delight Jar Set</p>
+						</div>
+					</a>
+				</div>
+				<!--  -->
+				<div class="item">
+					<a href="">
+						<div class="inner_seller">
+							<img src="./image/bestseller-4.png" alt="">
+							<p>FL-54 Midnight Reverie Jar</p>
+						</div>
+					</a>
+				</div>
+				<!--  -->
+			</div>
+
+			<div class="explore_btn">
+				<a href="#" class="btn btn-1">
+					<svg>
+						<rect x="0" y="0" fill="none" width="100%" height="100%" />
+					</svg>
+					Explore More</a>
+			</div>
+		</div>
+	</section>
+	<!-- Get a quote -->
+	<section class="free-quote py-0">
+		<img src="./image/quote_free.png" alt="">
+		<div class="free_quotemain">
+			<div class="container">
+				<h2>Get a Free Quote Today!</h2>
+				<p>Discover the best prices for your home essentials fast, easy, and hassle free.</p>
+				<p class="mt-3 common-btn"><a href="">Request a Quote</a></p>
+			</div>
+		</div>
+	</section>
+	<!-- six things -->
+	<section class="sixmain_thing" style="background: #FFF9EB;">
+		<h2 class="subheading">6 things that define us</h2>
+		<div class="container">
+			<div class="define_thing">
+				<!--  -->
+				<div class="trend_item">
+					<h3>Trend-Driven Collections</h3>
+					<p>By working with global homeware trend forecasters, BMI ensures its collections are aligned with
+						current and emerging trends, and can even forecast trends specific to a client's local market.
+					</p>
+					<img src="./image/things-1.png" alt="">
+				</div>
+				<!--  -->
+				<div class="trend_item">
+					<h3>Trend-Driven Collections</h3>
+					<p>By working with global homeware trend forecasters, BMI ensures its collections are aligned with
+						current and emerging trends, and can even forecast trends specific to a client's local market.
+					</p>
+					<img src="./image/things-2.png" alt="">
+				</div>
+				<!--  -->
+				<div class="trend_item">
+					<h3>Trend-Driven Collections</h3>
+					<p>By working with global homeware trend forecasters, BMI ensures its collections are aligned with
+						current and emerging trends, and can even forecast trends specific to a client's local market.
+					</p>
+					<img src="./image/things-3.png" alt="">
+				</div>
+				<!--  -->
+				<div class="trend_item">
+					<h3>Trend-Driven Collections</h3>
+					<p>By working with global homeware trend forecasters, BMI ensures its collections are aligned with
+						current and emerging trends, and can even forecast trends specific to a client's local market.
+					</p>
+					<img src="./image/things-4.png" alt="">
+				</div>
+				<!--  -->
+				<div class="trend_item">
+					<h3>Trend-Driven Collections</h3>
+					<p>By working with global homeware trend forecasters, BMI ensures its collections are aligned with
+						current and emerging trends, and can even forecast trends specific to a client's local market.
+					</p>
+					<img src="./image/things-5.png" alt="">
+				</div>
+				<!--  -->
+				<div class="trend_item">
+					<h3>Trend-Driven Collections</h3>
+					<p>By working with global homeware trend forecasters, BMI ensures its collections are aligned with
+						current and emerging trends, and can even forecast trends specific to a client's local market.
+					</p>
+					<img src="./image/things-6.png" alt="">
+				</div>
+				<!--  -->
+			</div>
+		</div>
+	</section>
+	<!-- Real Stories -->
+	<section class="real_story">
+		<div class="stories_main row">
+			<div class="col-lg-5">
+				<h2>Real Stories.<br>Real Satisfaction.</h2>
+				<p>Our commitment to delivering exceptional quality and service. Every product we create is backed by
+					genuine customer experiences and lasting satisfaction, making your trust our greatest achievement.
+				</p>
+			</div>
+			<div class="col-lg-7">
+				<div class="story_slide owl-carousel owl-theme">
+					<!--  -->
+					<div class="item">
+						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam aliquet lacinia risus. Donec
+							congue tortor mi, sit amet malesuada neque aliquam vel. Sed vitae cursus metus, et ultrices
+							nibh. Vivamus efficitur urna ligula, id placerat est luctus vel.</p>
+						<div class="client_profile">
+							<div class="client_detail">
+								<img src="./image/profile-img.png" alt="">
+								<div>
+									<h5>Lorem ipsum</h5>
+									<h6>Lorem ipsum dolor sit amet</h6>
+								</div>
+							</div>
+							<div class="star_review">
+								<!-- <i class="fa-regular fa-star" style="color: yellow;" onclick="this.classList.toggle('fa-solid'); this.classList.toggle('fa-regular');"></i> -->
+								<i class="fa-solid fa-star"></i>
+								<i class="fa-solid fa-star"></i>
+								<i class="fa-solid fa-star"></i>
+								<i class="fa-solid fa-star"></i>
+								<i class="fa-solid fa-star"></i>
+							</div>
+						</div>
+					</div>
+					<!--  -->
+					<div class="item">
+						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam aliquet lacinia risus. Donec
+							congue tortor mi, sit amet malesuada neque aliquam vel. Sed vitae cursus metus, et ultrices
+							nibh. Vivamus efficitur urna ligula, id placerat est luctus vel.</p>
+						<div class="client_profile">
+							<div class="client_detail">
+								<img src="./image/profile-img.png" alt="">
+								<div>
+									<h5>Lorem ipsum</h5>
+									<h6>Lorem ipsum dolor sit amet</h6>
+								</div>
+							</div>
+							<div class="star_review">
+								<!-- <i class="fa-regular fa-star" style="color: yellow;" onclick="this.classList.toggle('fa-solid'); this.classList.toggle('fa-regular');"></i> -->
+								<i class="fa-solid fa-star"></i>
+								<i class="fa-solid fa-star"></i>
+								<i class="fa-solid fa-star"></i>
+								<i class="fa-solid fa-star"></i>
+								<i class="fa-solid fa-star"></i>
+							</div>
+						</div>
+					</div>
+					<!--  -->
+
+				</div>
+			</div>
+		</div>
+	</section>
+	<!-- upcoming Event -->
+	<section class="upcoming_event">
+		<div class="container">
+			<h2 class="subheading">Upcoming Events</h2>
+			<div class="event_slider owl-carousel owl-theme">
+				<div class="item">
+					<img src="./image/event-1.png" alt="">
+					<div class="event_detail">
+						<h4>Join us at</h4>
+						<h3>Event name 2025</h3>
+						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. </p>
+						<a href="">Book a Meeting</a>
+					</div>
+				</div>
+				<!--  -->
+				<div class="item slideitem2">
+					<img src="./image/event-2.png" alt="">
+					<div class="event_detail">
+						<h4>Join us at</h4>
+						<h3>Event name 2025</h3>
+						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. </p>
+						<a href="">Book a Meeting</a>
+					</div>
+				</div>
+				<!--  -->
+			</div>
+		</div>
+	</section>
+	<!-- Recent Blog -->
+	<section class="recent_blog" style="background: #FFF5DF;">
+		<div class="container">
+			<h2 class="subheading mb-0">Our Recent Blog</h2>
+			<p class="sub_content">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam aliquet lacinia
+				risus. Donec congue tortor mi, sit amet malesuada neque aliquam vel. Sed vitae cursus metus, et
+				ultrices nibh. </p>
+			<div class="recent_main mt-5">
+				<div class="recent_first">
+					<div class="blog_item">
+						<img src="./image/blog-1.png" alt="">
+						<div class="blog_content">
+							<h3>Global sourcing partner for custom homeware solutions</h3>
+							<p>BMI is a global sourcing partner that discovers, designs, and manufactures homeware in
+								collaboration with exclusive factory partners.</p>
+						</div>
+					</div>
+				</div>
+				<div class="similar_blog">
+					<!--  -->
+					<div class="blog_item">
+						<img src="./image/blog-2.png" alt="">
+						<div class="blog_content">
+							<h3>Global sourcing partner for custom homeware solutions</h3>
+						</div>
+					</div>
+					<!--  -->
+					<div class="blog_item">
+						<img src="./image/blog-3.png" alt="">
+						<div class="blog_content">
+							<h3>Global sourcing partner for custom homeware solutions</h3>
+						</div>
+					</div>
+					<!--  -->
+					<div class="blog_item">
+						<img src="./image/blog-4.png" alt="">
+						<div class="blog_content">
+							<h3>Global sourcing partner for custom homeware solutions</h3>
+						</div>
+					</div>
+					<!--  -->
+				</div>
+			</div>
+			<div class="explore_btn">
+				<a href="#" class="btn btn-1">
+					<svg>
+						<rect x="0" y="0" fill="none" width="100%" height="100%" />
+					</svg>
+					Explore More</a>
+			</div>
+		</div>
+	</section>
+
+	<!-- Inspiration Video -->
+	<section class="inspiration_sec" style="background: #FFF9EB;">
+		<div class="container">
+			<h2 class="subheading mb-0">Inspiration From Our Instagram</h2>
+			<p class="sub_content mb-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam aliquet lacinia
+				risus. Donec congue tortor mi, sit amet malesuada neque aliquam vel. Sed vitae cursus metus, et
+				ultrices nibh. </p>
+
+			<div class="inspir_slide owl-carousel owl-theme">
+				<!--  -->
+				<div class="item">
+					<img src="./image/inspiration-1.png" alt="">
+					<h3>Lorem ipsum dolor sit amet</h3>
+					<p>Lorem ipsum dolor sit amet</p>
+				</div>
+				<!--  -->
+				<div class="item">
+					<img src="./image/inspiration-2.png" alt="">
+					<h3>Lorem ipsum dolor sit amet</h3>
+					<p>Lorem ipsum dolor sit amet</p>
+				</div>
+				<!--  -->
+				<div class="item">
+					<img src="./image/inspiration-3.png" alt="">
+					<h3>Lorem ipsum dolor sit amet</h3>
+					<p>Lorem ipsum dolor sit amet</p>
+				</div>
+				<!--  -->
+				<div class="item">
+					<img src="./image/inspiration-4.png" alt="">
+					<h3>Lorem ipsum dolor sit amet</h3>
+					<p>Lorem ipsum dolor sit amet</p>
+				</div>
+				<!--  -->
+			</div>
+
+		</div>
+	</section>
+
+	<!-- Certificate -->
+	<section class="certificate_sec">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-6">
+					<h2>Certificate of___________</h2>
+					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec venenatis dictum enim, id rutrum
+						massa. Fusce erat arcu, pretium eget massa at, aliquet mattis velit. Suspendisse potenti. Nunc
+						non sem eu leo egestas hendrerit. </p>
+					<ul>
+						<li>Lorem ipsum dolor sit amet, consectetur adipiscing elit. </li>
+						<li>Donec venenatis dictum enim, id rutrum massa. </li>
+						<li>Fusce erat arcu, pretium eget massa at, aliquet mattis velit. </li>
+						<li>Suspendisse potenti. Nunc non sem eu leo egestas hendrerit. </li>
+					</ul>
+				</div>
+				<div class="col-lg-6">
+					<div class="certificate_slide owl-carousel owl-theme">
+						<div class="item">
+							<img src="./image/certificate.png" alt="">
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<!-- Get In Touch -->
+	<section class="get-intouch">
+		<div class="container">
+			<h2 class="subheading">Want to Explore Our Collections? Get in Touch</h2>
+			<div class="get-touch">
+				<!--  -->
+				<div class="touch-innr">
+					<img src="./image/collect-quote.png" alt="">
+					<h4>Get a quote</h4>
+					<p>Send us your query via E-Mail</p>
+				</div>
+				<!--  -->
+				<div class="touch-innr">
+					<img src="./image/collect-email.png" alt="">
+					<h4>E-Mail Us</h4>
+					<p>Send us your query via E-Mail</p>
+				</div>
+				<!--  -->
+				<div class="touch-innr">
+					<img src="./image/collect-whatsapp.png" alt="">
+					<h4>WhatsApp</h4>
+					<p>Send us a message for a quick responce</p>
+				</div>
+				<!--  -->
+			</div>
+		</div>
+	</section>
+	<!-- Main Section end -->
+
+	<!-- footer -->
+	<footer class="bmi-footer">
+		<div class="container">
+			<div class="footer-inrmain row">
+				<div class="footer-care col-lg-4">
+					<h4>Customer Care</h4>
+					<p>Need help? Email us at
+						<a href="mailto:info@maxbone.com">info@maxbone.com</a>. We’re here for
+						you, and ready to answer your questions.
+					</p>
+					<p>24/7 Availability</p>
+					<div class="contact-social">
+						<a href=""><i class="fa-brands fa-instagram"></i></a>
+						<a href=""><i class="fa-brands fa-square-facebook"></i></a>
+					</div>
+				</div>
+				<div class="footer-inrdiv col-lg-2">
+					<h4>Customer Care</h4>
+					<div class="main-servi">
+						<p><a href="">Size Guide</a></p>
+						<p><a href="">Shipping Information</a></p>
+						<p><a href="">Returns & Exchanges</a></p>
+						<p><a href="">FAQ</a></p>
+						<p><a href="">Wholesale</a></p>
+					</div>
+				</div>
+				<div class="footer-inrdiv col-lg-2">
+					<h4>Supplies</h4>
+					<div class="main-servi">
+						<p><a href="">Walk</a></p>
+						<p><a href="">Bags</a></p>
+						<p><a href="">Wear</a></p>
+						<p><a href="">Bestseller</a></p>
+					</div>
+				</div>
+				<div class="footer-inrdiv col-lg-2">
+					<h4>Company</h4>
+					<div class="main-servi">
+						<p><a href="">We’re Hiring</a></p>
+						<p><a href="">Terms & Conditions</a></p>
+						<p><a href="">Privacy Policy</a></p>
+						<p><a href="">Blogs</a></p>
+					</div>
+				</div>
+				<div class="footer-inrdiv col-lg-2">
+					<h4>About us</h4>
+					<div class="main-servi">
+						<p><a href="">About us</a></p>
+						<p><a href="">In Ther Press</a></p>
+						<p><a href="">Collaborations</a></p>
+						<p><a href="">Charities</a></p>
+						<p><a href="">Careers</a></p>
+					</div>
+				</div>
+			</div>
+		</div>
+		</div>
+	</footer>
+
+	<section class="copyryt_main">
+		<div class="container">
+			<div class="copy-sec">
+				<div class="copy-lft">
+					<a href="">Terms of Service</a>
+					<a href="">Privacy Policy</a>
+					<a href="">Accessibility</a>
+				</div>
+				<div class="copy-ryt">© bmi 2025</div>
+			</div>
+		</div>
+	</section>
+
+	<!-- footer -->
+	<script type="text/javascript" src="./js/jquery.min.js"></script>
+	<script type="text/javascript" src="./js/bootstrap.bundle.min.js"></script>
+	<script type="text/javascript" src="./js/owl.carousel.min.js"></script>
+	<script type="text/javascript" src="./js/myscript.js"></script>
+
+</body>
+
+</html>
