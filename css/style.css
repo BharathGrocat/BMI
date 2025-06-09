@@ -1712,6 +1712,12 @@ section.recent_viewsec h3.recent_text {
     font-family: 'PublicSans-Bold';
 }
 
+.product_color i {
+    background: #fff;
+    padding: 3px 6px;
+    border-radius: 3px;
+}
+
 .product_color p {
     font-size: 28px;
     margin-left: 10px;
