@@ -1529,7 +1529,7 @@ section.get-intouch {
 .product_detai .prod_infoview p {
     width: 100%;
     font-size: 15px;
-    background-image: linear-gradient(45deg, #4230260f, #423026, #4230260f);
+    background-image: linear-gradient(90deg, #5b555400, #423026, #5b555400);
     padding: 10px;
 }
 
