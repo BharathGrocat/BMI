@@ -1721,8 +1721,9 @@ section.recent_viewsec h3.recent_text {
 
 .product_color i {
     background: #fff;
-    padding: 1px 3px;
-    border-radius: 2px;
+    padding: 1px 3px 1px 2px;
+    border-radius: 5px;
+    border: 1px solid #000;
 }
 
 .product_color p.selected {
@@ -2380,6 +2381,8 @@ section.contact_main {
     width: 50%;
 }
 
+
+
 /* responsive */
 @media screen and (max-width: 2500px) {}
 
@@ -2388,6 +2391,11 @@ section.contact_main {
 @media screen and (max-width: 1400px) {
     .banner-section .banner_content h1 {
         font-size: 45px;
+    }
+
+    .contact_lft.col-lg-6 img {
+        height: 750px;
+        object-fit: cover;
     }
 }
 
@@ -2921,6 +2929,10 @@ section.contact_main {
         font-size: 18px;
     }
 
+    .contact_lft.col-lg-6 img {
+        height: auto;
+        object-fit: cover;
+    }
 
 
 
