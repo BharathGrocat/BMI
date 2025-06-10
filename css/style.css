@@ -1712,17 +1712,17 @@ section.recent_viewsec h3.recent_text {
     font-family: 'PublicSans-Bold';
 }
 
-.product_color i {
-    background: #fff;
-    padding: 3px 6px;
-    border-radius: 3px;
-}
-
 .product_color p {
     font-size: 28px;
     margin-left: 10px;
     margin-top: 10px;
     cursor: pointer;
+}
+
+.product_color i {
+    background: #fff;
+    padding: 1px 3px;
+    border-radius: 2px;
 }
 
 .product_color p.selected {
@@ -3004,6 +3004,16 @@ section.contact_main {
         font-size: 15px;
         line-height: 25px;
     }
+
+    /* about */
+    .about_us .banner_content {
+        top: 13%;
+    }
+
+    section.about_us .banner-main img {
+        height: 250px;
+        object-position: center;
+    }
 }
 
 @media screen and (max-width: 600px) {
@@ -3315,8 +3325,8 @@ section.contact_main {
     }
 
     .banner-section .banner_content p {
-        font-size: 15px;
-        line-height: 22px;
+        font-size: 16px;
+        line-height: 25px;
         margin: 10px 0;
         width: 100%;
     }
@@ -3370,6 +3380,10 @@ section.contact_main {
         font-size: 14px;
         padding: 10px 15px;
         border-radius: 8px;
+    }
+
+    .about_us .banner_content {
+        top: 20%;
     }
 
     /* Listing Page */
