@@ -1591,6 +1591,14 @@ section.get-intouch {
     border-radius: 5px;
 }
 
+section.bloglist_sec {
+    padding-bottom: 20px;
+}
+
+.bloglist_slider .item .common-btn {
+    margin-bottom: 0;
+}
+
 /* Detail Page */
 section.recent_viewsec h2 {
     margin-bottom: 0;
