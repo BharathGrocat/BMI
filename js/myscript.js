@@ -10,8 +10,17 @@ document.querySelectorAll('.dropdown-parent > a').forEach(link => {
   });
 });
 
-
 $(function () {
+
+  $(".homebanner_slider").owlCarousel({
+    autoplay: false,
+    loop: true,
+    margin: 15,
+    dots: true,
+    items: 1,
+    navText: false,
+  });
+
   $(".bestseller_main").owlCarousel({
     autoplay: false,
     loop: true,
@@ -37,16 +46,13 @@ $(function () {
         items: 3
       },
       1100: {
-        items: 3
-      },
-      1100: {
         items: 4
       }
     }
   });
 });
 
-$(".story_slide").owlCarousel({
+$(".catergory_row").owlCarousel({
   autoplay: false,
   loop: true,
   margin: 15,
@@ -55,6 +61,38 @@ $(".story_slide").owlCarousel({
   // autoplayTimeout: 3000,
   // autoplayHoverPause: false,
   // autoplaySpeed: 5000,
+  navText: false,
+  // navText: [
+  //   '<i class="fa-solid fa-arrow-left"></i>',
+  //   '<i class="fa-solid fa-arrow-right"></i>'
+  // ],
+  responsive: {
+    0: {
+      items: 1
+    },
+    500: {
+      items: 3
+    },
+    990: {
+      items: 5
+    },
+    1200: {
+      items: 6
+    }
+  }
+});
+
+$(".story_slide").owlCarousel({
+  autoplay: true,
+  loop: true,
+  margin: 15,
+  dots: false,
+  // slideTransition: "linear",
+  // autoplayTimeout: 3000,
+  // autoplayHoverPause: false,
+  // autoplaySpeed: 5000,
+  autoplayTimeout: 3000,
+  autoplayHoverPause: true,
   navText: false,
   navText: [
     '<i class="fa-solid fa-arrow-left"></i>',
@@ -145,6 +183,54 @@ $(".bloglist_slider").owlCarousel({
   items: 1,
   navText: false,
 });
+
+$(".product_slidimg").owlCarousel({
+  autoplay: false,
+  loop: false,
+  margin: 15,
+  dots: false,
+  navText: false,
+  responsive: {
+    0: {
+      items: 2
+    },
+    370: {
+      items: 3
+    },
+    500: {
+      items: 4
+    },
+    767: {
+      items: 5
+    },
+  }
+});
+
+// socail shatr in listing page
+// document.addEventListener("DOMContentLoaded", function () {
+//   document.querySelector('.collection_main .share').addEventListener('click', function () {
+//     document.querySelector('.collection_main .social').classList.toggle('active');
+//     this.classList.toggle('active'); // optional: to animate/share icon itself
+//   });
+// });
+
+
+document.addEventListener("DOMContentLoaded", function () {
+  const collectionBlocks = document.querySelectorAll('.collect_item');
+
+  collectionBlocks.forEach(function (block) {
+    const shareBtn = block.querySelector('.share');
+    const socialMenu = block.querySelector('.social');
+
+    if (shareBtn && socialMenu) {
+      shareBtn.addEventListener('click', function () {
+        socialMenu.classList.toggle('active');
+        this.classList.toggle('active');
+      });
+    }
+  });
+});
+
 
 
 // Pagination
