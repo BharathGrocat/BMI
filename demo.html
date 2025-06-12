@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Product Page</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <link rel="stylesheet" href="styles.css">
+  <style>
+
+    .product-container {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+
+    .gallery {
+      display: flex;
+      gap: 20px;
+      align-items: flex-start;
+    }
+
+    .thumbnails {
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+    }
+
+    .thumbnails img {
+      width: 60px;
+      height: 60px;
+      object-fit: cover;
+      border: 2px solid #ddd;
+      cursor: pointer;
+      border-radius: 5px;
+    }
+
+    .thumbnails img:hover {
+      border-color: orange;
+    }
+
+    .main-image-wrapper {
+      position: relative;
+    }
+
+    .main-image {
+      width: 450px;
+      border-radius: 10px;
+    }
+
+    .wishlist {
+      position: absolute;
+      top: 10px;
+      right: 10px;
+      background: white;
+      border-radius: 50%;
+      padding: 8px;
+      cursor: pointer;
+      font-size: 18px;
+      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    }
+  </style>
+</head>
+
+<body>
+
+  <div class="product-container">
+    <div class="gallery">
+      <div class="thumbnails">
+        <img src="./image/bestseller-1.png" onclick="changeImage(this)">
+        <img src="./image/bestseller-2.png" onclick="changeImage(this)">
+        <img src="./image/bestseller-3.png" onclick="changeImage(this)">
+        <img src="./image/bestseller-4.png" onclick="changeImage(this)">
+      </div>
+      <div class="main-image-wrapper">
+        <img id="mainImage" src="./image/bestseller-1.png" alt="Product Image" class="main-image">
+        <span class="wishlist"><i class="fa-regular fa-heart"></i></span>
+      </div>
+    </div>
+  </div>
+
+  <script>
+    function changeImage(element) {
+      document.getElementById('mainImage').src = element.src;
+    }
+  </script>
+
+</body>
+
+</html>
