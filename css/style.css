@@ -609,8 +609,8 @@ section.categories_sec {
     display: flex;
     width: 100%;
     position: absolute;
-    bottom: 1rem;
-    right: -1rem;
+    bottom: 1.5rem;
+    right: 0rem;
     text-align: right;
     opacity: 1;
     pointer-events: auto;
@@ -622,7 +622,7 @@ section.categories_sec {
 
 .collection_main .social li i {
     list-style: none;
-    background: #EFEFEF;
+    background: #FFF9EB;
     color: #8D8D8D;
     padding: 5px;
     border-radius: 5px;
@@ -636,7 +636,10 @@ section.categories_sec {
 .collection_main .social li i.fa-x-twitter {
     color: #000;
     font-size: 20px;
-    transform: translateY(-13px);
+}
+
+i.fa-brands.fa-whatsapp {
+    color: green !important;
 }
 
 .collection_main .social li i.fa-linkedin-in {
@@ -2045,7 +2048,7 @@ section.detail_sec {
     position: absolute;
     bottom: -4rem;
     right: -3rem;
-    width: 180px;
+    width: 230px;
     background: #fff;
     padding: 10px;
 }
