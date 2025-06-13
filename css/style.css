@@ -607,26 +607,27 @@ section.categories_sec {
 
 .collection_main .social.active {
     display: flex;
-    width: 100%;
     position: absolute;
     bottom: 1.5rem;
     right: 0rem;
     text-align: right;
     opacity: 1;
     pointer-events: auto;
-    padding: 0;
     justify-content: end;
     gap: 10px;
     transition: all 0.4s ease;
+    background: #fff;
+    padding: 5px 10px;
 }
 
 .collection_main .social li i {
     list-style: none;
     background: #FFF9EB;
     color: #8D8D8D;
-    padding: 5px;
+        padding: 5px 6px;
     border-radius: 5px;
     font-size: 22px;
+    border: 1px solid #000;
 }
 
 .fa-heart {
@@ -635,7 +636,6 @@ section.categories_sec {
 
 .collection_main .social li i.fa-x-twitter {
     color: #000;
-    font-size: 20px;
 }
 
 i.fa-brands.fa-whatsapp {
@@ -662,6 +662,7 @@ i.fa-brands.fa-whatsapp {
     color: #000;
     cursor: pointer;
     transition: transform 0.3s ease;
+    font-size: 15px !important;
 }
 
 .collection_main .social li a:hover {
@@ -671,7 +672,7 @@ i.fa-brands.fa-whatsapp {
 .listing_detail .listing_quality {
     display: flex;
     align-items: center;
-    gap: 20px;
+    gap: 15px;
     padding-right: 10px;
     /* position: absolute;
     top: 1rem;
